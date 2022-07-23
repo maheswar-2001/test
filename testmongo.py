@@ -5,6 +5,10 @@ print(db)
 
 dic = {"name" :"Maheswar", "email": "parmarctc1@gmail.com", "surname":"Parmar"}
 
+dic1 = {"name" :"Ram", "email": "ramparmar021@gmail.com", "surname":"Parmar"}
+
+dic2 = {"name" :"Pulsar", "email": "pulsarctc@gmail.com", "surname":"Computer"}
+
 db1 = client['testmongo']
 coll = db1['test']
 coll.insert_one(dic)
